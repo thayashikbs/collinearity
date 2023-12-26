@@ -1918,7 +1918,7 @@ algorithm</h3>
 <p>The <tt>$summary</tt> element of an output object of
 <tt>run_eem()</tt> contains a summary of the outcomes of the XMSP just
 conducted, together with that of the yMSP if it is also conducted.</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="co"># XMSPの結果要約</span></span>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="co"># summary of EEM-M</span></span>
 <span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a>output1<span class="sc">$</span>summary</span>
 <span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a><span class="co">#&gt;  $algo</span></span>
 <span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a><span class="co">#&gt;  [1] &quot;VI&quot;</span></span>
@@ -3318,10 +3318,10 @@ are in <tt>$summary$coef_best_model</tt>.</p>
 </div>
 </div>
 </div>
-<div id="other-useful-functions-run_xmsp-run_ymsp" class="section level2" number="2.3">
+<div id="other-useful-functions-run_xmsp-and-run_ymsp" class="section level2" number="2.3">
 <h2><span class="header-section-number">2.3</span> Other useful
-functions: <tt>run_xmsp, run_ymsp</tt></h2>
-<p>Instead of running <tt>run_eem()</tt>, you can utilize either
+functions: <tt>run_xmsp()</tt> and <tt>run_ymsp()</tt></h2>
+<p>Instead of running <tt>run_eem()</tt>, you can run seperately either
 <tt>run_xmsp()</tt> and/or <tt>run_ymsp()</tt> that specifically conduct
 XMSP and yMSP respectively both of which comprise the whole EEM-M. In
 fact, <tt>run_eem()</tt> is nothing more than a wrapper function of the
